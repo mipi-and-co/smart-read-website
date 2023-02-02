@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    font-family: sans-serif ;
+}
+
+header {
+    width: 75%;
+
+}
+
+header > nav > ul {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+header > nav > ul > li {
+    list-style-type: none;
+    padding: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+}
