@@ -1,0 +1,16 @@
+:root {
+    --bg-color: #EAE0D5;
+    --secondary-bg-color: #22333B;
+    --main-text-color: #0A0908;
+    --footer-color: #5E503F;
+    --button-color: #C6AC8F;
+}
+
+* {
+    margin: 0;
+    font-family: sans-serif ;
+}
+
+body {
+    background-color: var(--bg-color);
+}
