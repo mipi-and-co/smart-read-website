@@ -92,12 +92,17 @@ body {
 h1 {
     text-align: center;
     margin-top: 5%;
+    margin-bottom: 1%;
 }
 
 h2 {
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+section {
+    margin-bottom: 1%;
 }
 
 section div {
@@ -109,7 +114,9 @@ section div {
 }
 
 section img {
-    height: 10em;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section:last-of-type {
@@ -123,45 +130,20 @@ section:nth-of-type(odd) {
     
 }
 
-
 section:nth-of-type(even) {
     background-color: var(--section-color-2);
     color: var(--secondary-text-color);
     padding-bottom: 2%;
 }
 
+.bio img {
+    height: 50%;
+}
+
 p {
     text-align: justify;
     font-size: 1.2em;
     line-height: 1.5em;
-}
-
-.section-3-column div > * {
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-.section-3-column img {
-    height: 10em;
-}
-
-.section-theme-1 h2{
-    color: var(--main-text-color);
-    margin-top: 2%;
-    padding-top: 1%;
-    margin-bottom: 1%;
-}
-
-.section-theme-1 p{
-    font-size: 24px;
-    color: var(--main-text-color);
-}
-
-.section-theme-2 h2{
-    color: var(--secondary-text-color);
-    margin-top: 2%;
-    padding-top: 1%;
-    margin-bottom: 1%;
 }
 
 .cards-wrapper {
